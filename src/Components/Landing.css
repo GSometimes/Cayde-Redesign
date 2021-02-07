@@ -40,6 +40,24 @@ font-family: 'Archivo Narrow', sans-serif;
     animation: glow 1s ease-in-out infinite alternate;
 }
 
+.arrow-box{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.down-arrow {
+    font-size: 100px;
+    color: white;
+    animation: arrow 1s ease-in-out infinite alternate;
+}
+
+
 @keyframes glow {
     from {
         text-shadow: 0 0 0 #fff, 0 0 10px #fff, 0 0 20px #fff;    
@@ -63,6 +81,15 @@ font-family: 'Archivo Narrow', sans-serif;
     }
   }
 
+  @keyframes arrow {
+    from {
+        text-shadow: 0 0 0 #fff, 0 0 10px #fff, 0 0 20px #fff;    
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    }
+}
+
 
 /* @media (max-height: 768px) and (max-width: 1366px) {
 }
@@ -75,14 +102,32 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 @media (max-height: 768px) and (max-width: 1366px) {
+    .down-arrow{
+        font-size: 85px;
+    }
 }
 
 @media only screen and (max-width: 768px){
-    .title{
-        font-size: 45px;
+    .arrow-box{
+        width: 300px;
+    }
+    
+    .down-arrow {
+        font-size: 100px;
     }
 
 }
 
 @media only screen and (max-width: 500px){
+    .title{
+        font-size: 50px;
+    }
+    .arrow-box{
+        width: 150px;
+        display: flex;
+    }
+    
+    .down-arrow {
+        font-size: 75px;
+    }
 }
