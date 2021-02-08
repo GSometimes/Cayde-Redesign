@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css';
 
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 // can add delay={seconds}
 
