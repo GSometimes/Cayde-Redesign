@@ -17,20 +17,24 @@ const Hero = () => {
                         <h1>Cayde-6: Hunter Vanguard, Legend</h1>
                     </div>
                 </Fade>
+                <Fade left delay={100}>              
+                    <div className="image item"></div>
+                </Fade>
                 <Fade delay={600}>              
                     <div className="about item">
                         <p>Cayde-6 was an Exo Guardian and the Vanguard for the Hunter class. He was, and still is, an icon within the community regardless of what class you main. He brought countless laughs, memorable moments, and tears with his tragic, heroic end that no Guardian will ever forget. The best way to describe him was laid-back, carefree, down-to-earth, reckless, adventurous, and cunning. He will be remembered as a piece of the vanguard puzzle that had the care and heart of a guardian, no matter how tough the times. </p>
                     </div>
-                </Fade>
-                {/* <div className="ace item"></div> */}
-                <Fade left delay={100}>              
-                    <div className="image item"></div>
                 </Fade>
                 <Fade  right delay={400}>              
                     <div className="hunter-symbol item"></div>
                 </Fade>
                 <Fade delay={600}>              
                     <div className="quote1 item">"A knife, thrown just right, can accomplish wonderful things."</div>
+                </Fade>
+                <Fade left delay={200}>
+                    <div className="lore-title item">
+                        <h1>The Man They Called Cayde</h1>
+                    </div>
                 </Fade>
             </div>
         </div>

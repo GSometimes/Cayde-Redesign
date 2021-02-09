@@ -50,7 +50,7 @@ font-family: 'Archivo Narrow', sans-serif;
      justify-content: center;
      align-items: center;
      text-align: center;
-     padding: 20px;
+     padding: 10px;
  }
 
  .about {
@@ -63,19 +63,9 @@ font-family: 'Archivo Narrow', sans-serif;
      margin: 0 auto;
      font-family: 'Archivo Narrow', sans-serif;
      font-size: 22px;
-     padding: 20px;
+     padding: 10px;
 }
 
-/* .ace {
-    grid-column: 4 / 10;
-    grid-row: 4 / 13;
-    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612760730/Portfolio1/evan-cwiertny-screenshot017_abplgb.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    display: none;
-} */
 
  .image{
      grid-column: 1 / 4;
@@ -106,5 +96,17 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     /* background: #2DEAD2; */
-    padding: 20px;
+    padding: 10px;
+}
+
+.lore-title {
+    grid-column: 1 / 8; 
+    grid-row: 16 / 20;
+    font-size: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
 }
