@@ -110,3 +110,69 @@ font-family: 'Archivo Narrow', sans-serif;
     text-align: center;
     padding: 10px;
 }
+
+.dealEntry {
+    grid-column: 1 / 10;
+    grid-row: 20 / 34;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.deal {
+    grid-column: 10 / 13;
+    grid-row: 20 / 34;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.deal h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    margin: 0 auto;
+}
+
+.callEntry {
+    grid-column: 4 / 13;
+    grid-row: 34 / 48;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.call {
+    grid-column: 1 / 4;
+    grid-row: 34 / 48;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.call h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    margin: 0 auto;
+}
