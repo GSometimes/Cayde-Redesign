@@ -19,6 +19,10 @@ font-family: 'Archivo Narrow', sans-serif;
 
  */
 
+ /* 
+ Add a h1 class that you can apply universally so you don't need to have separate classes calling to a specific h1
+  */
+
  .hero-container {
      min-height: 100vh;
      width: 100vw;
@@ -42,8 +46,8 @@ font-family: 'Archivo Narrow', sans-serif;
  .header{
      grid-column: 4 / 13;
      grid-row: 1 / 4;
-     /* background: #090B0A; */
-     /* color: #F6D88D; */
+     background: #28282A;
+     color: #A87C25;
      font-size: 25px;
      font-family: 'Julius Sans One', sans-serif;
      display: flex;
@@ -56,7 +60,8 @@ font-family: 'Archivo Narrow', sans-serif;
  .about {
      grid-column: 4 / 8;
      grid-row: 4 / 15;
-     /* background: #2DEAD2; */
+     background: #28282A;
+     color: #A87C25;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -95,7 +100,8 @@ font-family: 'Archivo Narrow', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: #2DEAD2; */
+    background: #28282A;
+    color: #A87C25;
     padding: 10px;
 }
 
@@ -109,11 +115,13 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     text-align: center;
     padding: 10px;
+    background: #28282A;
+    color: #A87C25;
 }
 
 .dealEntry {
     grid-column: 1 / 10;
-    grid-row: 20 / 34;
+    grid-row: 20 / 32;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
     padding: 20px;
@@ -125,7 +133,7 @@ font-family: 'Archivo Narrow', sans-serif;
 
 .deal {
     grid-column: 10 / 13;
-    grid-row: 20 / 34;
+    grid-row: 20 / 32;
     background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
     background-size: cover;
     background-position: center;
@@ -140,13 +148,13 @@ font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: 15px;
     font-size: 65px;
     font-family: 'Julius Sans One', sans-serif;
-    color: white;
+    color: #A87C25;
     margin: 0 auto;
 }
 
 .callEntry {
     grid-column: 4 / 13;
-    grid-row: 34 / 48;
+    grid-row: 32 / 46;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
     padding: 20px;
@@ -158,7 +166,7 @@ font-family: 'Archivo Narrow', sans-serif;
 
 .call {
     grid-column: 1 / 4;
-    grid-row: 34 / 48;
+    grid-row: 32 / 46;
     background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
     background-size: cover;
     background-position: center;
@@ -173,6 +181,425 @@ font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: 15px;
     font-size: 65px;
     font-family: 'Julius Sans One', sans-serif;
-    color: white;
+    color: #A87C25;
     margin: 0 auto;
+}
+
+
+.firstStakeEntry {
+    grid-column: 4 / 13;
+    grid-row: 46 / 60;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.firstStake {
+    grid-column: 1 / 4;
+    grid-row: 46 / 60;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firstStake h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.foldEntry {
+    grid-column: 1 / 10;
+    grid-row: 60 / 74;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.fold {
+    grid-column: 10 / 13;
+    grid-row: 60 / 74;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fold h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.flopEntry {
+    grid-column: 4 / 13;
+    grid-row: 74 / 88;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.flop {
+    grid-column: 1 / 4;
+    grid-row: 74 / 88;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.flop h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.raiseEntry {
+    grid-column: 4 / 13;
+    grid-row: 88 / 102;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.raise {
+    grid-column: 1 / 4;
+    grid-row: 88 / 102;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.raise h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.turnEntry {
+    grid-column: 1 / 10;
+    grid-row: 102 / 114;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.turn {
+    grid-column: 10 / 13;
+    grid-row: 102 / 114;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.turn h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.all-inEntry {
+    grid-column: 4 / 13;
+    grid-row: 114 / 128;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.all-in {
+    grid-column: 1 / 4;
+    grid-row: 114 / 128;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.all-in h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.riverEntry {
+    grid-column: 4 / 13;
+    grid-row: 128 / 140;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.river {
+    grid-column: 1 / 4;
+    grid-row: 128 / 140;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.river h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.showdownEntry {
+    grid-column: 1 / 10;
+    grid-row: 140 / 154;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.showdown {
+    grid-column: 10 / 13;
+    grid-row: 140 / 154;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.showdown h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.winnerTakeAllEntry {
+    grid-column: 4 / 13;
+    grid-row: 154 / 168;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.winnerTakeAll {
+    grid-column: 1 / 4;
+    grid-row: 154 / 168;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.winnerTakeAll h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 5px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.bluffEntry {
+    grid-column: 4 / 13;
+    grid-row: 168 / 182;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bluff {
+    grid-column: 1 / 4;
+    grid-row: 168 / 182;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.bluff h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+.badBeatEntry {
+    grid-column: 1 / 10;
+    grid-row: 182 / 196;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.badBeat {
+    grid-column: 10 / 13;
+    grid-row: 182 / 196;
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1612826960/Portfolio1/Ace_of_Spades_br0qos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.badBeat h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
+}
+
+/* .aceInTheHoleEntry {
+    grid-column: 4 / 13;
+    grid-row: 196 / 210;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: none;
+} */
+
+.aceInTheHole {
+    grid-column: 1 / 13;
+    grid-row: 196 / 200;
+    background: #28282A;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.aceInTheHole h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 15px;
+    font-size: 46px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #A87C25;
+    text-align: center;
 }
