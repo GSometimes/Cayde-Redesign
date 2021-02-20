@@ -34,30 +34,37 @@ const Hero = (props) => {
                         <h1>Cayde-6: Hunter Vanguard, Legend</h1>
                     </div>
                 </Fade>
+
                 <Fade left delay={100}>              
                     <div className="image item"></div>
                 </Fade>
+
                 <Fade delay={600}>              
                     <div className="about item">
                         <p>Cayde-6 was an Exo Guardian and the Vanguard for the Hunter class. He was, and still is, an icon within the community regardless of what class you main. He brought countless laughs, memorable moments, and tears with his tragic, heroic end that no Guardian will ever forget. The best way to describe him was laid-back, carefree, down-to-earth, reckless, adventurous, and cunning. He will be remembered as a piece of the vanguard puzzle that had the care and heart of a guardian, no matter how tough the times. </p>
                     </div>
                 </Fade>
+
                 <Fade  right delay={400}>              
                     <div className="hunter-symbol item"></div>
                 </Fade>
+
                 <Fade delay={600}>              
                     <div className="quote1 item">"A knife, thrown just right, can accomplish wonderful things."</div>
                 </Fade>
+
                 <Fade left delay={200}>
                     <div className="lore-title item">
                         <h1>The Man They Called Cayde</h1>
                     </div>
                 </Fade>
+
                 <Fade right delay={400}>
                     <div className="deal item">
                         <h1>Deal</h1>
                     </div>
                 </Fade>
+
                 <Fade delay={600}>
                     <div className="dealEntry item">
                         {lore.filter((props, index) => index === 0).map((filteredStory) => (
@@ -65,106 +72,181 @@ const Hero = (props) => {
                             ))}
                     </div>
                 </Fade>
-                <div className="call item">
-                    <h1>Call</h1>
-                </div>
-                <div className="callEntry item">
-                    {lore.filter((props, index) => index === 1).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="firstStake item">
-                    <h1>First Stake</h1>
-                </div>
-                <div className="firstStakeEntry item">
-                    {lore.filter((props, index) => index === 2).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="fold item">
-                    <h1>Fold</h1>
-                </div>
-                <div className="foldEntry item">
-                    {lore.filter((props, index) => index === 3).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="flop item">
-                    <h1>Flop</h1>
-                </div>
-                <div className="flopEntry item">
-                    {lore.filter((props, index) => index === 4).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="raise item">
-                    <h1>Raise</h1>
-                </div>
-                <div className="raiseEntry item">
-                    {lore.filter((props, index) => index === 5).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="turn item">
-                    <h1>Turn</h1>
-                </div>
-                <div className="turnEntry item">
-                    {lore.filter((props, index) => index === 6).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="all-in item">
-                    <h1>All-In</h1>
-                </div>
-                <div className="all-inEntry item">
-                    {lore.filter((props, index) => index === 7).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="river item">
-                    <h1>River</h1>
-                </div>
-                <div className="riverEntry item">
-                    {lore.filter((props, index) => index === 8).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="showdown item">
-                    <h1>Showdown</h1>
-                </div>
-                <div className="showdownEntry item">
-                    {lore.filter((props, index) => index === 9).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="winnerTakeAll item">
-                    <h1>Winner Takes All</h1>
-                </div>
-                <div className="winnerTakeAllEntry item">
-                    {lore.filter((props, index) => index === 10).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="bluff item">
-                    <h1>Bluff</h1>
-                </div>
-                <div className="bluffEntry item">
-                    {lore.filter((props, index) => index === 11).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                <div className="badBeat item">
-                    <h1>Bad Beat</h1>
-                </div>
-                <div className="badBeatEntry item">
-                    {lore.filter((props, index) => index === 12).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div>
-                    
-                <div className="aceInTheHole item">
-                    <h1>"Every story has an end...this is mine."</h1>
-                </div>
+
+                <Fade left delay={400}>
+                    <div className="call item">
+                        <h1>Call</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="callEntry item">
+                        {lore.filter((props, index) => index === 1).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="firstStake item">
+                        <h1>First Stake</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="firstStakeEntry item">
+                        {lore.filter((props, index) => index === 2).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade right delay={400}>
+                    <div className="fold item">
+                        <h1>Fold</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="foldEntry item">
+                        {lore.filter((props, index) => index === 3).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="flop item">
+                        <h1>Flop</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="flopEntry item">
+                        {lore.filter((props, index) => index === 4).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="raise item">
+                        <h1>Raise</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="raiseEntry item">
+                        {lore.filter((props, index) => index === 5).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade right delay={400}>
+                    <div className="turn item">
+                        <h1>Turn</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="turnEntry item">
+                        {lore.filter((props, index) => index === 6).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="all-in item">
+                        <h1>All-In</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="all-inEntry item">
+                        {lore.filter((props, index) => index === 7).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="river item">
+                        <h1>River</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="riverEntry item">
+                        {lore.filter((props, index) => index === 8).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade right delay={400}>
+                    <div className="showdown item">
+                        <h1>Showdown</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="showdownEntry item">
+                        {lore.filter((props, index) => index === 9).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="winnerTakeAll item">
+                        <h1>Winner Takes All</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="winnerTakeAllEntry item">
+                        {lore.filter((props, index) => index === 10).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade left delay={400}>
+                    <div className="bluff item">
+                        <h1>Bluff</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="bluffEntry item">
+                        {lore.filter((props, index) => index === 11).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade right delay={400}>
+                    <div className="badBeat item">
+                        <h1>Bad Beat</h1>
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="badBeatEntry item">
+                        {lore.filter((props, index) => index === 12).map((filteredStory) => (
+                            <p>{filteredStory.gsx$entry.$t}</p>
+                            ))}
+                    </div>
+                </Fade>
+
+                <Fade delay={600}>
+                    <div className="aceInTheHole item">
+                        <h1>"Every story has an end...this is mine."</h1>
+                    </div>
+                </Fade>
+
                 {/* <div className="aceInTheHoleEntry item">
                     {lore.filter((props, index) => index === 13).map((filteredStory) => (
                         <p>{filteredStory.gsx$entry.$t}</p>

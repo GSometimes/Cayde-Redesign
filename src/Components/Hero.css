@@ -129,6 +129,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .deal {
@@ -162,6 +164,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .call {
@@ -196,6 +200,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .firstStake {
@@ -230,7 +236,10 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
+
 .fold {
     grid-column: 10 / 13;
     grid-row: 60 / 74;
@@ -264,7 +273,10 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
+
 .flop {
     grid-column: 1 / 4;
     grid-row: 74 / 88;
@@ -298,6 +310,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .raise {
@@ -333,6 +347,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .turn {
@@ -368,6 +384,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .all-in {
@@ -403,6 +421,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .river {
@@ -438,6 +458,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .showdown {
@@ -473,6 +495,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .winnerTakeAll {
@@ -508,6 +532,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .bluff {
@@ -543,6 +569,8 @@ font-family: 'Archivo Narrow', sans-serif;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    color: #28282A;
+    background: #DFE0E2;
 }
 
 .badBeat {
