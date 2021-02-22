@@ -102,12 +102,16 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 @media (max-height: 768px) and (max-width: 1366px) {
+
     .down-arrow{
         font-size: 85px;
     }
 }
 
 @media only screen and (max-width: 768px){
+    .title {
+        width: 80%;
+    }
     .arrow-box{
         width: 300px;
     }
