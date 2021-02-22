@@ -29,7 +29,7 @@ const Hero = (props) => {
     return (
         <div className="hero-container">
             <div className="grid-container">
-                <Fade top delay={200}>
+                <Fade right delay={200}>
                     <div className="header item">
                         <h1>Cayde-6: Hunter Vanguard, Legend</h1>
                     </div>
@@ -247,11 +247,6 @@ const Hero = (props) => {
                     </div>
                 </Fade>
 
-                {/* <div className="aceInTheHoleEntry item">
-                    {lore.filter((props, index) => index === 13).map((filteredStory) => (
-                        <p>{filteredStory.gsx$entry.$t}</p>
-                        ))}
-                </div> */}
             </div>
         </div>
     )

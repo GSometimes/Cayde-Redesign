@@ -1,30 +1,6 @@
-/* @media (max-height: 768px) and (max-width: 1366px) {
-}
-
-@media only screen and (max-width: 768px){
-}
-
-@media only screen and (max-width: 500px){
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
-
-/*
-Julius Sans One:
-font-family: 'Julius Sans One', sans-serif;
-
-Archivo Narrow:
-font-family: 'Archivo Narrow', sans-serif;
-
-font-family: 'Josefin Slab', serif;
-
- */
-
- /* 
- Add a h1 class that you can apply universally so you don't need to have separate classes calling to a specific h1
-  */
 
 
  .hero-container {
@@ -601,19 +577,6 @@ font-family: 'Josefin Slab', serif;
     text-align: center;
 }
 
-/* .aceInTheHoleEntry {
-    grid-column: 4 / 13;
-    grid-row: 196 / 210;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    display: none;
-} */
-
 .aceInTheHole {
     grid-column: 1 / 13;
     grid-row: 196 / 200;
@@ -639,10 +602,6 @@ font-family: 'Josefin Slab', serif;
 
 
 @media only screen and (max-width: 991px){
-    .App {
-        background-color: #e5e4e2;
-    }
-
     .hero-container {
         padding: 20px;
     }
@@ -842,10 +801,6 @@ font-family: 'Josefin Slab', serif;
 }
 
 @media only screen and (max-width: 769px){
-    .App {
-        background-color: #93b7be;
-    }
-
     .hero-container {
         padding: 15px;
     }
@@ -1065,11 +1020,6 @@ font-family: 'Josefin Slab', serif;
 }
 
 @media only screen and (max-width: 500px){
-    
-    .App {
-        background-color: #32a852;
-    }
-
     .hero-container {
         padding: 10px;
     }
@@ -1095,7 +1045,6 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 20 / 25;
         font-size: 14px;
-        /* display: none; */
     }
 
     .hunter-symbol {
@@ -1112,15 +1061,12 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 27 / 30;
         font-size: 18px;
-        /* display: none; */
-
     }
 
     .deal {
         grid-column: 1 / 13;
         grid-row: 30 / 35;
         height: 175px;
-        /* display: none; */
 
     }
 
@@ -1128,7 +1074,6 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 35 / 40;
         font-size: 14px;
-        /* display: none; */
 
     }
 
@@ -1136,7 +1081,6 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 40 / 45;
         height: 175px;
-        /* display: none; */
 
     }
 
@@ -1144,7 +1088,6 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1/ 13;
         grid-row: 45 / 50;
         font-size: 14px;
-        /* display: none; */
 
     }
 
@@ -1152,68 +1095,53 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 50 / 55;
         height: 175px;
-        /* display: none; */
     }
 
     .firstStakeEntry {
         grid-column: 1 / 13;
         grid-row: 55 / 60;
         font-size: 14px;
-        /* display: none; */
 
     }
 
     .firstStake h1 {
         font-size: 60px;
-        /* display: none; */
     }
 
     .fold {
         grid-column: 1 / 13;
         grid-row: 60 / 65;
         height: 175px;
-        /* display: none; */
     }
 
     .foldEntry {
         grid-column: 1 / 13;
         grid-row: 65 / 70;
         font-size: 14px;
-        /* display: none; */
-
     }
 
     .flop {
         grid-column: 1 / 13;
         grid-row: 70 / 75;
         height: 175px;
-
-        /* display: none; */
-
     }
 
     .flopEntry {
         grid-column: 1 / 13;
         grid-row: 75 / 80;
         font-size: 14px;
-        /* display: none; */
-
     }
 
     .raise {
         grid-column: 1 / 13;
         grid-row: 80 / 85;
         height: 175px;
-
-        /* display: none; */
-
     }
 
     .raiseEntry {
         grid-column: 1 / 13;
         grid-row: 85 / 90;
         font-size: 14px;
-        /* display: none; */
 
     }
 
@@ -1221,17 +1149,12 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 90 / 95;
         height: 175px;
-
-        /* display: none; */
-
     }
 
     .turnEntry {
         grid-column: 1 / 13;
         grid-row: 95 / 100;
         font-size: 14px;
-        /* display: none; */
-
     }
 
     .turn h1 {
@@ -1242,16 +1165,12 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 100 / 105;
         height: 175px;
-
-        /* display: none; */
-
     }
 
     .all-inEntry {
         grid-column: 1 / 13;
         grid-row: 105 / 110;
         font-size: 14px;
-        /* display: none; */
 
     }
 
@@ -1260,7 +1179,6 @@ font-family: 'Josefin Slab', serif;
     }
 
     .river {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 110 / 115;
         height: 175px;
@@ -1271,7 +1189,6 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 115 / 120;
         font-size: 14px;
-        /* display: none; */
 
     }
     
@@ -1283,14 +1200,12 @@ font-family: 'Josefin Slab', serif;
         grid-column: 1 / 13;
         grid-row: 120 / 125;
         height: 175px;
-        /* display: none; */
     }
 
     .showdownEntry {
         grid-column: 1 / 13 ;
         grid-row: 125 / 130;
         font-size: 14px;
-        /* display: none; */
 
     }
 
@@ -1300,7 +1215,6 @@ font-family: 'Josefin Slab', serif;
     }
 
     .winnerTakeAll {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 130 / 135;
         height: 175px;
@@ -1308,7 +1222,6 @@ font-family: 'Josefin Slab', serif;
     }
 
     .winnerTakeAllEntry {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 135 / 140;
         font-size: 14px;
@@ -1320,7 +1233,6 @@ font-family: 'Josefin Slab', serif;
     }
 
     .bluff {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 140 / 145;
         height: 175px;
@@ -1328,19 +1240,16 @@ font-family: 'Josefin Slab', serif;
     }
 
     .bluffEntry {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 145 / 150;
         font-size: 14px;
     }
 
     .bluff h1 {
-        /* display: none; */
         font-size: 55px;
     }
 
     .badBeat {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 150 / 155;
         height: 175px;
@@ -1348,20 +1257,19 @@ font-family: 'Josefin Slab', serif;
     }
 
     .badBeatEntry {
-        /* display: none; */
         grid-column: 1 / 13;
         grid-row: 155 / 160;
         font-size: 14px;
     }
 
     .aceInTheHole {
-        /* display: none; */
         grid-row: 160 / 165;
     }
 
     .aceInTheHole h1 {
-        font-size: 24px;
+        font-size: 22px;
         letter-spacing: 0px;
+        padding: 7px;
     }
 
 }
