@@ -23,6 +23,7 @@ font-family: 'Archivo Narrow', sans-serif;
  Add a h1 class that you can apply universally so you don't need to have separate classes calling to a specific h1
   */
 
+
  .hero-container {
      min-height: 100vh;
      width: 100vw;
@@ -97,6 +98,7 @@ font-family: 'Archivo Narrow', sans-serif;
     grid-row: 15 / 16;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 22px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -626,8 +628,412 @@ font-family: 'Archivo Narrow', sans-serif;
     height: 100%;
     width: 100%;
     letter-spacing: 15px;
-    font-size: 46px;
+    font-size: 45px;
     font-family: 'Julius Sans One', sans-serif;
     color: #A87C25;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 991px){
+    .App {
+        background-color: #e5e4e2;
+    }
+
+    .hero-container {
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-gap: 15px;
+    }
+
+    .header {
+        grid-column: 1 / 13;
+        font-size: 20px;
+    }
+
+    .image {
+        grid-row: 4 / 16; 
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .hunter-symbol {
+        grid-row: 4 / 15;
+    }
+
+    .quote1 {
+        grid-column: 4 / 13;
+    }
+
+    .lore-title {
+        grid-column: 1 / 13;
+        font-size: 20px;
+    }
+
+    .deal {
+        grid-column: 9 / 13;
+        grid-row: 20 / 25;
+    }
+
+    .dealEntry {
+        grid-column: 1 / 9;
+        grid-row: 20 / 25;
+        font-size: 18px;
+    }
+
+    .call {
+        grid-column: 1 / 5;
+        grid-row: 25 / 30;
+    }
+
+    .callEntry {
+        grid-column: 5 / 13;
+        grid-row: 25 / 30;
+        font-size: 18px;
+    }
+
+    .firstStake {
+        grid-column: 1 / 5;
+        grid-row: 30 / 35;
+    }
+
+    .firstStakeEntry {
+        grid-column: 5 / 13;
+        grid-row: 30 / 35;
+        font-size: 18px;
+    }
+
+    .fold {
+        grid-column: 9 / 13;
+        grid-row: 35 / 40;
+    }
+
+    .foldEntry {
+        grid-column: 1 / 9;
+        grid-row: 35 / 40;
+        font-size: 18px;
+    }
+
+    .flop {
+        grid-column: 1 / 5;
+        grid-row: 40 / 45;
+    }
+
+    .flopEntry {
+        grid-column: 5 / 13;
+        grid-row: 40 / 45;
+        font-size: 18px;
+    }
+
+    .raise {
+        grid-column: 1 / 5;
+        grid-row: 45 / 50;
+    }
+
+    .raiseEntry {
+        grid-column: 5 / 13;
+        grid-row: 45 / 50;
+        font-size: 18px;
+    }
+
+    .turn {
+        grid-column: 9 / 13;
+        grid-row: 50 / 55;
+    }
+
+    .turnEntry {
+        grid-column: 1 / 9;
+        grid-row: 50 / 55;
+        font-size: 18px;
+    }
+
+    .all-in {
+        grid-column: 1 / 5;
+        grid-row: 55 / 60;
+    }
+
+    .all-inEntry {
+        grid-column: 5 / 13;
+        grid-row: 55 / 60;
+        font-size: 18px;
+    }
+
+    .river {
+        grid-column: 1 / 5;
+        grid-row: 60 / 65;
+    }
+
+    .riverEntry {
+        grid-column: 5 / 13;
+        grid-row: 60 / 65;
+        font-size: 18px;
+    }
+
+    .showdown {
+        grid-column: 8 / 13;
+        grid-row: 65 / 70;
+    }
+
+    .showdownEntry {
+        grid-column: 1 / 8 ;
+        grid-row: 65 / 70;
+        font-size: 18px;
+    }
+
+    .showdown h1 {
+        font-size: 60px;
+        letter-spacing: 0;
+    }
+
+    .winnerTakeAll {
+        grid-column: 1 / 5;
+        grid-row: 70 / 75;
+    }
+
+    .winnerTakeAllEntry {
+        grid-column: 5 / 13;
+        grid-row: 70 / 75;
+        font-size: 18px;
+    }
+
+    .winnerTakeAll h1 {
+        letter-spacing: 0;
+        font-size: 60px;
+    }
+
+    .bluff {
+        grid-column: 1 / 5;
+        grid-row: 75 / 80;
+    }
+
+    .bluffEntry {
+        grid-column: 5 / 13;
+        grid-row: 75 / 80;
+        font-size: 18px;
+    }
+
+    .badBeat {
+        grid-column: 8 / 13;
+        grid-row: 80 / 85;
+    }
+
+    .badBeatEntry {
+        grid-column: 1 / 8;
+        grid-row: 80 / 85;
+        font-size: 18px;
+    }
+
+    .aceInTheHole {
+        grid-row: 85 / 90;
+    }
+
+    .aceInTheHole h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .App {
+        background-color: #93b7be;
+    }
+
+    .hero-container {
+        padding: 15px;
+    }
+
+    .grid-container {
+        grid-gap: 15px;
+    }
+
+    .header {
+        grid-column: 1 / 13;
+        font-size: 20px;
+    }
+
+    .image {
+        grid-row: 4 / 16; 
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .hunter-symbol {
+        grid-row: 4 / 15;
+    }
+
+    .quote1 {
+        grid-column: 4 / 13;
+    }
+
+    .lore-title {
+        grid-column: 1 / 13;
+        font-size: 20px;
+    }
+
+    .deal {
+        grid-column: 9 / 13;
+        grid-row: 20 / 25;
+    }
+
+    .dealEntry {
+        grid-column: 1 / 9;
+        grid-row: 20 / 25;
+        font-size: 18px;
+    }
+
+    .call {
+        grid-column: 1 / 5;
+        grid-row: 25 / 30;
+    }
+
+    .callEntry {
+        grid-column: 5 / 13;
+        grid-row: 25 / 30;
+        font-size: 18px;
+    }
+
+    .firstStake {
+        grid-column: 1 / 5;
+        grid-row: 30 / 35;
+    }
+
+    .firstStakeEntry {
+        grid-column: 5 / 13;
+        grid-row: 30 / 35;
+        font-size: 18px;
+    }
+
+    .fold {
+        grid-column: 9 / 13;
+        grid-row: 35 / 40;
+    }
+
+    .foldEntry {
+        grid-column: 1 / 9;
+        grid-row: 35 / 40;
+        font-size: 18px;
+    }
+
+    .flop {
+        grid-column: 1 / 5;
+        grid-row: 40 / 45;
+    }
+
+    .flopEntry {
+        grid-column: 5 / 13;
+        grid-row: 40 / 45;
+        font-size: 18px;
+    }
+
+    .raise {
+        grid-column: 1 / 5;
+        grid-row: 45 / 50;
+    }
+
+    .raiseEntry {
+        grid-column: 5 / 13;
+        grid-row: 45 / 50;
+        font-size: 18px;
+    }
+
+    .turn {
+        grid-column: 9 / 13;
+        grid-row: 50 / 55;
+    }
+
+    .turnEntry {
+        grid-column: 1 / 9;
+        grid-row: 50 / 55;
+        font-size: 18px;
+    }
+
+    .all-in {
+        grid-column: 1 / 5;
+        grid-row: 55 / 60;
+    }
+
+    .all-inEntry {
+        grid-column: 5 / 13;
+        grid-row: 55 / 60;
+        font-size: 18px;
+    }
+
+    .river {
+        grid-column: 1 / 5;
+        grid-row: 60 / 65;
+    }
+
+    .riverEntry {
+        grid-column: 5 / 13;
+        grid-row: 60 / 65;
+        font-size: 18px;
+    }
+
+    .showdown {
+        grid-column: 8 / 13;
+        grid-row: 65 / 70;
+    }
+
+    .showdownEntry {
+        grid-column: 1 / 8 ;
+        grid-row: 65 / 70;
+        font-size: 18px;
+    }
+
+    .showdown h1 {
+        font-size: 60px;
+        letter-spacing: 0;
+    }
+
+    .winnerTakeAll {
+        grid-column: 1 / 5;
+        grid-row: 70 / 75;
+    }
+
+    .winnerTakeAllEntry {
+        grid-column: 5 / 13;
+        grid-row: 70 / 75;
+        font-size: 18px;
+    }
+
+    .winnerTakeAll h1 {
+        letter-spacing: 0;
+        font-size: 60px;
+    }
+
+    .bluff {
+        grid-column: 1 / 5;
+        grid-row: 75 / 80;
+    }
+
+    .bluffEntry {
+        grid-column: 5 / 13;
+        grid-row: 75 / 80;
+        font-size: 18px;
+    }
+
+    .badBeat {
+        grid-column: 8 / 13;
+        grid-row: 80 / 85;
+    }
+
+    .badBeatEntry {
+        grid-column: 1 / 8;
+        grid-row: 80 / 85
+    }
+
+    .aceInTheHole {
+        grid-row: 85 / 90;
+    }
+
+    .aceInTheHole h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
 }

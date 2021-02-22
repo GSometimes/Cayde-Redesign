@@ -201,7 +201,7 @@ const Hero = (props) => {
 
                 <Fade left delay={400}>
                     <div className="winnerTakeAll item">
-                        <h1>Winner Takes All</h1>
+                        <h1>Winner Take All</h1>
                     </div>
                 </Fade>
 
