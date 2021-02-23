@@ -3,9 +3,6 @@ import './Hero.css';
 
 import Fade from 'react-reveal/Fade';
 
-// can add delay={seconds}
-
-// <p>Destiny has been apart of my life for over the last 6 years now. It's been an outlet for me to connect with old friends and make new friends. It has become a part of my everyday gaming life as an outlet for enjoyment, a way for me to escape, and as a way to connect with a lost loved one. It's a game that will hold a special place in my heart and it's something that I'll never stop playing. My inspiration for this app was to take a small part of something that I hold dearly and share it with whoever comes across it. It's something that will grow over time with me. I became a Guardian 6 years ago and I'll always be one.</p>
 
 const Hero = (props) => {
 
@@ -246,7 +243,23 @@ const Hero = (props) => {
                         <h1>"Every story has an end...this is mine."</h1>
                     </div>
                 </Fade>
-
+                <div className="footer item">
+                    <a href="https://www.linkedin.com/in/gore-sometimes/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/GSometimes" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                    <a href="https://www.goresometimes.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://res.cloudinary.com/dvug8hy5k/image/upload/v1614044797/Portfolio1/GS_Logo_2_pcca9n.png" alt=""></img>
+                    </a>
+                    <a href="mailto:gsometimes@outlook.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope-square"></i>
+                    </a>
+                    <a href="https://dev.to/gsometimes" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
             </div>
         </div>
     )
